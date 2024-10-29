@@ -1,0 +1,86 @@
+.main-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #ececef;
+}
+.content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.login-form{
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #bdbfb7;
+}
+span{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.inpt{
+    display: flex;
+    flex-direction: column;
+  
+}
+input{
+    width: 80%;
+    height: 50px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    margin: auto;
+    background-color: #bdbfb7;
+    color: black;
+}
+input::placeholder {
+    color: black;
+    opacity: 1; 
+}
+.img{
+    width: 40%;
+    height: 100vh;
+}
+img{
+    width: 80%;
+    margin-left: 60px;
+    margin-top: 30px;
+    border-top-left-radius: 40px ;
+    border-bottom-right-radius: 40px ;
+}
+.btn{
+    margin-top: 30px;
+}
+button{
+    width: 80%;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #949597;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-bottom: 15px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    
+}
+.txt {
+    font-size: 20px;
+}
+a{
+    outline: none;
+    color: black;
+}

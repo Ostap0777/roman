@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.main-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ececef;
+}
+
+.content {
+    width: 100%; 
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    background-color: #bdbfb7;
+    justify-content: space-around;
+}
+.register-form{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inpt-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+   
+}
+
+.inpt-name input{
+    width: 190px;
+    margin-left: 20px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    background-color: #bdbfb7;
+}
+.inpt{
+    width: 100%;
+    margin-left: 10px;
+}
+input::placeholder {
+    color: black;
+    opacity: 1; 
+}
+input{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #bdbfb7;
+}
+.btn{
+    width: 100%;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+button{
+    width: 70%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #949597;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-bottom: 15px;
+    margin-left: -100px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    
+}
+span{
+    font-size: 25px;
+}
+.img{
+    width: 40%;
+    height: 90%;
+    margin: auto;
+    
+}
+img{
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.txt {
+    font-size: 15px;
+}
+a{
+    outline: none;
+    color: black;
+}

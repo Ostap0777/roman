@@ -1,0 +1,49 @@
+<div class="main-block">
+    <div class="img">
+        <img src="../../assets/main.webp" alt="">
+    </div>
+    <div class="text-about">
+        <span>Enjoy your Dream</span>
+        <span>Trip</span>
+    </div>
+    <div class="content">
+       
+        <div class="search_form" [formGroup]="searchForm" (ngSubmit)="onSubmit()">
+            <div class="from">
+                <div class="text">
+                    <span>From</span>
+                </div>
+                <div class="inpt">
+                    <input formControlName="from" type="text" placeholder="Place of departure">
+                </div>
+            </div>
+            <div class="to">
+                <div class="text">
+                    <span>TO</span>
+                </div>
+                <div class="inpt">
+                    <input formControlName="to" type="text" placeholder="Place of arrival">
+                </div>
+            </div>
+            <div class="departure_date">
+                <div class="text">
+                    <span>When?</span>
+                </div>
+                <div class="inpt">
+                    <input formControlName="departureDate" type="date">
+                </div>
+            </div>
+            <div class="arrival_date">
+                <div class="text">
+                    <span>Return?</span>
+                </div>
+                <div class="inpt">
+                    <input formControlName="returnDate" type="date">
+                </div>
+            </div>
+            <div class="btn">
+                <button type="submit">Search</button>
+            </div>
+        </div>
+        
+</div>
