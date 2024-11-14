@@ -1,0 +1,27 @@
+.admin {
+	&__section {
+		padding: 100px 0px;
+
+	}
+	&__content {
+
+	}
+	&__add {
+
+	}
+	&__button {
+		margin-top: 20px;
+		background-color: #4caf50;
+		color: #ffffff;
+		border: none;
+		border-radius: 4px;
+		padding: 10px 20px;
+		font-size: 16px;
+		cursor: pointer;
+		transition: background-color 0.3s;
+	}
+	&__button:hover {
+		cursor: pointer;
+		background-color: #8df490;
+	}
+}

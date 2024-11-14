@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { MainPageComponent } from './main-page/main-page.component';
-import { TicketsComponent } from './tickets/tickets.component';
-import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
-import { TicketOrderComponent } from './ticket-order/ticket-order.component';
-import { HomePageComponent } from './home-page/home-page.component';
-import { OrderComponent } from './order/order.component';
+import { MainPageComponent } from './Components/Pages/main-page/main-page.component';
+import { TicketsComponent } from './Components/Pages/tickets/tickets.component';
+import { LoginComponent } from './Components/Pages/login/login.component';
+import { RegisterComponent } from '../app/Components/Pages/register/register.component';
+import { TicketOrderComponent } from './Components/Pages/ticket-order/ticket-order.component';
+import { HomePageComponent } from './Components/Pages/home-page/home-page.component';
+import { OrderComponent } from './Components/Pages/order/order.component';
+import { AdminComponent } from './Components/Pages/Adminn/admin/admin.component';
+import { AdminAddComponent } from './Components/Pages/Adminn/admin-add/admin-add.component';
 
 const routes: Routes = [
   {path: '', component: MainPageComponent },
@@ -15,7 +17,9 @@ const routes: Routes = [
   {path: 'register', component: RegisterComponent},
   {path: 'ticket-order', component: TicketOrderComponent},
   {path: 'home', component: HomePageComponent},
-  {path: 'order', component: OrderComponent}
+  {path: 'order', component: OrderComponent},
+  {path: 'admin', component: AdminComponent},
+  {path: 'admin/add', component: AdminAddComponent}
 ];
 
 @NgModule({

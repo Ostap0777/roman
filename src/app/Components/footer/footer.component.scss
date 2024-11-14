@@ -1,0 +1,43 @@
+.footer {
+	background-color: #333; 
+	color: #ffffff;
+	padding: 20px 0;
+	font-size: 14px;
+	text-align: center;
+	z-index: 5;
+	position: relative;
+ 
+	.container {
+	  max-width: 1200px;
+	  margin: 0 auto;
+	  padding: 0 20px;
+	}
+ 
+	.copyright {
+	  margin: 0;
+	  font-size: 13px;
+	  color: #999; 
+	}
+ 
+	.contact-info {
+	  margin: 10px 0;
+	  color: #ffffff;
+	  font-weight: bold;
+	}
+ 
+	.social-links {
+	  margin-top: 10px;
+ 
+	  .social-link {
+		 color: #ffffff;
+		 margin: 0 10px;
+		 text-decoration: none;
+		 transition: color 0.3s ease;
+ 
+		 &:hover {
+			color: #4a90e2; 
+		 }
+	  }
+	}
+ }
+ 

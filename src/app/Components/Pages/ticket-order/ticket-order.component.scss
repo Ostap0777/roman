@@ -1,0 +1,82 @@
+.ticket {
+
+	&__section {
+		position: relative;
+	}
+
+	&__container {
+	}
+
+	&__img {
+		position: absolute;
+		z-index: 1;
+		width: 100%;
+		height: 100%;
+
+	}
+
+	&__content {
+		position: relative;
+		display: flex;
+		justify-content: space-around;
+		padding: 100px 0px;
+		align-items: center;
+	
+	}
+
+	&__left {
+		display: 0 1 30%;
+		background-color: aliceblue;
+		z-index: 5;
+		padding: 30px;
+		border-radius: 30px;
+
+	}
+
+	&__title {
+		text-align: center;
+	}
+
+	&__info {
+	}
+
+	&__items {
+
+		display: flex;
+		justify-content: space-around;
+		z-index: 5;
+		
+	}
+
+	&__item {
+		padding: 0px 25px;
+	}
+
+	&__right {
+		display: 0 1 50%;
+	}
+	&__two__component {
+		position: relative;
+		z-index: 5;
+	}
+}
+.item {
+
+	&__title {
+		padding:0px 20px 0px 0px;
+		
+	}
+
+	&__id {
+	}
+
+	&__city {
+	}
+
+	&__track {
+	}
+}
+.about {
+}
+.price {
+}

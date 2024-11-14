@@ -1,0 +1,82 @@
+.tickets {
+
+	&__section {
+		text-align: center;
+	}
+	&__title {
+		text-align: center;
+		font-size: 34px;
+	}
+
+	&__container {
+		text-align: center;
+	}
+
+	&__items {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		gap: 50px;
+		padding: 50px 200px;
+	}
+
+	&__item {
+		display: flex;
+		background-color: rgba(51, 51, 51, 0.5); /* #333 з 50% непрозорості */
+		justify-content: space-around;
+		border-radius: 50px;
+		align-items: center;
+		padding: 20px;
+	}
+}
+.item {
+
+	&__content {
+		display: flex;
+		justify-content: center;
+		gap: 30px;
+
+	
+	}
+
+	&__id {
+		color: #ffffff;
+	}
+
+	&__title {
+		font-size: 20px;
+		color: #f7f4f4;
+	}
+
+	&__text {
+	}
+
+	&__info {
+		color: #ffffff;
+	}
+
+	&__place {
+	}
+
+	&__hours {
+	}
+
+	&__data {
+	}
+
+	&__price {
+	}
+
+	&__button {
+		padding: 10px 20px;
+		font-size: 20px;
+		border-radius: 20px;
+		border: 2px solid rgb(41, 41, 42);
+		color: #ffffff;
+		background-color: rgba(159, 157, 163, 0.5);
+	}
+	&__button:hover {
+		background-color: rgba(48, 48, 48, 0.2);
+		cursor: pointer;
+	}
+}

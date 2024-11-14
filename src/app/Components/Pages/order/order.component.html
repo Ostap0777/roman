@@ -1,0 +1,34 @@
+<section class="order__section">
+	<div class="order__content">
+		 <div class="order__title">
+			  <h1>Make an order</h1>
+		 </div>
+		 <form class="order__form">
+			  <div class="form__item">
+					<label class="form__label" for="name">Name</label>
+					<input class="form__input" type="text" id="name" placeholder="Name">
+			  </div>
+			  <div class="form__item">
+					<label class="form__label" for="lastName">Last name</label>
+					<input class="form__input" type="text" id="lastName" placeholder="Last name">
+			  </div>
+			  <div class="form__item">
+					<label class="form__label" for="passport">Passport</label>
+					<input class="form__input" type="text" id="passport" placeholder="Passport">
+			  </div>
+			  <div class="form__item">
+					<label class="form__label" for="seats">Number of seats</label>
+					<input id="seats" type="number" value="1" min="1" oninput="this.value = Math.max(this.value, 1)" class="form__input" placeholder="Seats">
+			  </div>
+		 </form>
+		 <div class="order__price">
+			  <div class="order__total">
+					<span>Total</span>
+			  </div>
+			  <div class="order__price__number">
+					<span>340$</span>
+			  </div>
+		 </div>
+		 <button class="order__buy">Click</button>
+	</div>
+</section>

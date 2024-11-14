@@ -1,0 +1,32 @@
+<section class="main__section">
+	<div class="main__container">
+		 <img class="main__image" src="../../assets/img/CPK_Koncepcja-7-1920x1281.jpg" alt="Dream Trip">
+		 <div class="main__content">
+	<div class="main__title">
+		 <span class="title__text">Enjoy your Dream</span>
+		 <span class="title__text">Trip</span>
+	</div>
+	<form class="main__form" (ngSubmit)="onSubmit()">
+		 <div class="form__item">
+			  <label class="form__label">From</label>
+			  <input formControlName="from" type="text" placeholder="Place of departure" class="form__input">
+		 </div>
+		 <div class="form__item">
+			  <label class="form__label">To</label>
+			  <input formControlName="to" type="text" placeholder="Place of arrival" class="form__input">
+		 </div>
+		 <div class="form__item">
+			  <label class="form__label">When</label>
+			  <input formControlName="departureDate" type="date" class="form__input">
+		 </div>
+		 <div class="form__item">
+			  <label class="form__label">Return</label>
+			  <input formControlName="returnDate" type="date" class="form__input">
+		 </div>
+			  <button type="submit" class="form__button">
+					<a routerLink="/tickets">Search</a>
+			  </button>
+	</form>
+</div>
+</div>
+</section>

@@ -1,0 +1,76 @@
+.add {
+	&__section {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 100vh; // Розтягує секцію на всю висоту екрану
+		background-color: #f7f7f7;
+		padding: 20px;
+		box-sizing: border-box;
+	}
+
+	&__content {
+		background-color: #ffffff;
+		border-radius: 8px;
+		padding: 30px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		text-align: center;
+		width: 100%;
+		max-width: 600px; // Максимальна ширина контейнера
+	}
+
+	&__title {
+		font-size: 24px;
+		font-weight: bold;
+		margin-bottom: 20px;
+		color: #333333;
+	}
+
+	&__form {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 20px;
+	}
+
+	&__button {
+		margin-top: 20px;
+		background-color: #4caf50;
+		color: #ffffff;
+		border: none;
+		border-radius: 4px;
+		padding: 10px 20px;
+		font-size: 16px;
+		cursor: pointer;
+		transition: background-color 0.3s;
+
+		&:hover {
+			background-color: #45a049;
+		}
+	}
+}
+
+.form {
+	&__item {
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+	}
+
+	&__label {
+		font-size: 14px;
+		color: #555555;
+	}
+
+	&__input {
+		height: 40px;
+		padding-left: 15px;
+		border-radius: 4px;
+		border: 1px solid #cccccc;
+		transition: border-color 0.3s;
+
+		&:focus {
+			outline: none;
+			border-color: #4caf50;
+		}
+	}
+}

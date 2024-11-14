@@ -1,0 +1,33 @@
+<div class="main-block">
+    <div class="content">
+        <div class="register-form">
+            <div>
+                <span>Sign up</span>
+            </div>
+            <form  (ngSubmit)="onSubmit()">
+                <div class="inpt-name">
+                    <input class="name" type="text" placeholder="Name" formControlName="firstName">
+                    <input type="text" placeholder="Last name" formControlName="lastName">
+                </div>
+                <div class="inpt">
+                    <input type="email" placeholder="Email" formControlName="email">
+                </div>
+                <div class="inpt">
+                    <input type="password" placeholder="Password" formControlName="password">
+                </div>
+                <div class="inpt">
+                    <input type="password" placeholder="Password again" formControlName="confirmPassword">
+                </div>
+                <div class="btn">
+                    <button type="submit">Click</button>
+                </div>
+            </form>
+            <div>
+                <span class="txt">Already have an account yet? <a routerLink="/login">Click here!</a></span>
+            </div>
+        </div>
+        <div class="img">
+            <img src="../../assets/register.webp" alt="">
+        </div>
+    </div>
+</div>
